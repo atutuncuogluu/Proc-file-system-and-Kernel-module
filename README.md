@@ -14,7 +14,10 @@ This program operates by extracting the task_state values defined in the task_st
 "Z (zombie)"
 "P (parked)"
 "I (idle)"
-When these values are written to a file, the program records the information in the format: *"PID: X STATE: X UTIME: X STIME: X UTIME+STIME: X"*. This data is written to the file in *real-time*. Upon subsequent reads of the file, you can retrieve the output.
+
+When these values are written to a file, the program records the information in the format:
+ "*PID: X STATE: X UTIME: X STIME: X UTIME+STIME: X*". 
+ This data is written to the file in *real-time*. Upon subsequent reads of the file, you can retrieve the output.
 
 Example usage:
 ``

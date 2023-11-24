@@ -5,15 +5,15 @@ In this project, we will create a file named "mytaskinfo" in the proc file syste
 
 This program operates by extracting the task_state values defined in the task_struct structure, which include:
 
-"R (running)"
-"S (sleeping)"
-"D (disk sleep)"
-"T (stopped)"
-"t (tracing stop)"
-"X (dead)"
-"Z (zombie)"
-"P (parked)"
-"I (idle)"
+"R (running)",
+"S (sleeping)",
+"D (disk sleep)",
+"T (stopped)",
+"t (tracing stop)",
+"X (dead)",
+"Z (zombie)",
+"P (parked)",
+"I (idle)",
 
 When these values are written to a file, the program records the information in the format:
  "*PID: X STATE: X UTIME: X STIME: X UTIME+STIME: X*". 
